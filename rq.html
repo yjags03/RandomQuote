@@ -102,6 +102,8 @@
             $("#quote_auth").html("");           
             showText("#quotep", quotes.quotes_list[quoteindex].quote, 0, 10);
             showText("#quote_auth", " - " + quotes.quotes_list[quoteindex].author, 0, 10);
+            tweet_quote
+            $("#tweet_quote").prop("href", "http://twitter.com/home/?status=" + quotes.quotes_list[quoteindex].quote + " by " + quotes.quotes_list[quoteindex].author);
         }
 
     </script>
@@ -128,14 +130,13 @@
                     <p id="quotep">This is a quote....</p>
                     <br />
                     <p id="quote_auth">Author</p>
-                    <br/>                   
+                    <br/>   
+                                        
                 </div>                                                
         </div>
         <div class="row">
             <div class="col-md-4 quote-center">
-                <button type="button" class="btn btn-info">
-                    <i class="fa fa-twitter"></i> Tweet this quote
-                </button>
+                <a href="#" class="bg-primary" id="tweet_quote"><i class="fa fa-twitter"></i>Tweet this quote</a>                
             </div>
         </div>
 
