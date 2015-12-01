@@ -16,5 +16,29 @@
     "quote": "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
     "author": "Albert Einstein"
 },
+{
+    "quote": "The trouble with the rat race is that even if you win, you’re still a rat.",
+    "author": "Lily Tomlin"
+},
+{
+    "quote": "We learn something every day, and lots of times it’s that what we learned the day before was wrong.",
+    "author": "Bill Vaughan"
+},
+{
+    "quote": "People often say that motivation doesn’t last. Well, neither does bathing – that’s why we recommend it daily.",
+    "author": "Zig Ziglar"
+},
+{
+    "quote": "Watch your thoughts; they become words.Watch your words; they become actions.Watch your actions; they become habits.Watch your habits; they become character.Watch your character; it becomes your destiny.",
+    "author": "Lao-Tze"
+},
+{
+    "quote": "You must be the change you wish to see in the world.",
+    "author": "Gandhi"
+},
+{
+    "quote": "You miss 100 percent of the shots you never take.",
+    "author": "Wayne Gretzky"
+},
 ]
 }
