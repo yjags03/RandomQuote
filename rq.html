@@ -12,6 +12,8 @@
         -->
     <script src="rq.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 
     <style>
         body {
@@ -85,25 +87,7 @@
         $(document).ready(function () {
             displayQuote();       
         });
-
-        /*
-        var quotes = {
-            "quote_list": [
-                {
-                    "quote": "This is first quote",
-                    "author": "First Author"
-                },
-                {
-                    "quote": "THis is second quote",
-                    "author": "Second Author"
-                },
-                {
-                    "quote": "THis is third quote,THis is third quote,THis is third quote,THis is third quote,THis is third quote,THis is third quote,THis is third quote",
-                    "author": "Third Author"
-                }
-            ]
-        };
-        */
+       
 
         $(function () {
             $("#new_quote_button").on("click", function (e) {               
@@ -144,7 +128,15 @@
                     <p id="quotep">This is a quote....</p>
                     <br />
                     <p id="quote_auth">Author</p>
+                    <br/>                   
                 </div>                                                
+        </div>
+        <div class="row">
+            <div class="col-md-4 quote-center">
+                <button type="button" class="btn btn-info">
+                    <i class="fa fa-twitter"></i> Tweet this quote
+                </button>
+            </div>
         </div>
 
     </div>
